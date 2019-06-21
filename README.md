@@ -1,4 +1,10 @@
 # DevOps
+  -Git Practice
+  -Docker 
+  -Kubernetese
+  -Jenkins    
+=========================================================================================
+   
 #Git Practice
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
@@ -45,6 +51,4 @@ to read about a specific subcommand or concept.
 
 
 
-#Docker 
-      -Kubernetese
-      -Jenkins
+
