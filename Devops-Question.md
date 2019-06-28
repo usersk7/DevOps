@@ -1,7 +1,9 @@
 # **Devops-Question [Shubham Kumbhar]**
 1. **what is DevOps?**
 ```
-Ans: DevOps is a set of software development practices that combines software development and information technology operations to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives
+Ans: DevOps is a set of software development practices that combines software development and 
+information technology operations to shorten the systems development life cycle while delivering features, 
+fixes, and updates frequently in close alignment with business objectives
 ```
   More About [Devops](https://theagileadmin.com/what-is-devops/ "Devops")
 
@@ -70,9 +72,12 @@ version control tools
 5. **what is a version control system?** 
 ```
 Ans:
-A version control system allows users to keep track of the changes in software development projects, and enable them to collaborate on those projects. Using it, the developers can work together on code and separate their tasks through branches.
+A version control system allows users to keep track of the changes in software development projects, and 
+enable them to collaborate on those projects. Using it, the developers can work together on code and 
+separate their tasks through branches.
 
-There can be several branches in a version control system, according to the number of collaborators. The branches maintain individuality as the code changes remain in a specified branch(s).
+There can be several branches in a version control system, according to the number of collaborators. 
+The branches maintain individuality as the code changes remain in a specified branch(s).
 
 Developers can combine the code changes when required. Further, they can view the history of changes, go back to the previous version(s) and use/manage code in the desired fashion.
     
