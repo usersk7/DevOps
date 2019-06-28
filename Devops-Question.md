@@ -79,21 +79,30 @@ separate their tasks through branches.
 There can be several branches in a version control system, according to the number of collaborators. 
 The branches maintain individuality as the code changes remain in a specified branch(s).
 
-Developers can combine the code changes when required. Further, they can view the history of changes, go back to the previous version(s) and use/manage code in the desired fashion.
+Developers can combine the code changes when required. Further, they can view the history of changes,
+go back to the previous version(s) and use/manage code in the desired fashion.
     
 ```
 6. **What is Git and explain the difference between Git and SVN?** 
 ```
 Ans:
-Git is a free, open source distributed version control system tool designed to handle everything from small to very large projects with speed and efficiency. It was created by Linus Torvalds in 2005 to develop Linux Kernel. Git has the functionality, performance, security and flexibility that most teams and individual developers need. It also serves as an important distributed version-control DevOps tool.
+Git is a free, open source distributed version control system tool designed to handle everything from small to very large projects with speed and efficiency. It was created by Linus Torvalds in 2005 to develop Linux Kernel.
+Git has the functionality, performance, security and flexibility that most teams and individual developers need. 
+It also serves as an important distributed version-control DevOps tool.
 ```
 **Difference between Git and SVN**
 ```
-Git and SVN are both software. Git is SCM, source code management , and a distributed revision control system. SVN is a revision control and software versioning system.
+Git and SVN are both software. Git is SCM, source code management ,
+and a distributed revision control system. SVN is a revision control and software versioning system.
 
-One of the most notable differences when switching to Git is its speed. Since the whole repository is stored locally on the developer’s machine, he or she can work for days with a very poor internet connection. Creating branches is lightning fast due to Git’s branch implementation. In Git, a branch is simply a reference to a commit, where the following commits will be attached. It doesn’t contain even basic information like create date, user who created it or some kind of a message.
+One of the most notable differences when switching to Git is its speed.
+Since the whole repository is stored locally on the developer’s machine, he or she can work for days with a very poor internet connection. Creating branches is lightning fast due to Git’s branch implementation.
+In Git, a branch is simply a reference to a commit, where the following commits will be attached.
+It doesn’t contain even basic information like create date, user who created it or some kind of a message.
 
-Since Git encourages the use of branches, we can’t forget to give a shout-out to its merge capabilities. SVN before version 1.5 only did two-way merges that involved a change set applied to the current codebase, because it didn’t store merge information. Git uses the history of the repository to identify the common base between the merged branches and only needs to merge from where they diverged — thereby completing a three-way merge. SVN is also improving and has supported three-way merging since 1.5. In the upcoming 1.9 version of SVN, it will also have better rename/move tracking of files, something that Git already does.
+Since Git encourages the use of branches, we can’t forget to give a shout-out to its merge capabilities. 
+SVN before version 1.5 only did two-way merges that involved a change set applied to the current codebase, because it didn’t store merge information. Git uses the history of the repository to identify the common base between the merged branches and only needs to merge from where they diverged — thereby completing a three-way merge.
+SVN is also improving and has supported three-way merging since 1.5. In the upcoming 1.9 version of SVN, it will also have better rename/move tracking of files, something that Git already does.
 
     
 ```
@@ -118,7 +127,8 @@ C ++ - 2%
 8. **what are the advantages and disadvantages of using Git?**
 ```
 Ans:
-GIT is a distributed version control system and source code management system with an emphasis to handle small and large projects with speed and efficiency.
+GIT is a distributed version control system and source code management system with an emphasis to
+handle small and large projects with speed and efficiency.
 
 let’s start with advantages :
 
@@ -142,9 +152,11 @@ There are very few disadvantages of using GIT:
 
 ```
 Ans:
-    Before we talk about the differences between these two commands, let's stress their similarities: both are used to download new data from a remote repository.
+    Before we talk about the differences between these two commands,
+    let's stress their similarities: both are used to download new data from a remote repository.
 
-->  Downloading data is an essential step in your daily work - because the remote data you are looking at in your local repository is just a "snapshot". It's only as up-to-date as the last time you explicitly downloaded fresh data from the remote with "fetch" or "pull". It's vital to keep this fact in mind when inspecting remote branches and commits!
+->  Downloading data is an essential step in your daily work - because the remote data you are looking at in your local repository is just a "snapshot". 
+It's only as up-to-date as the last time you explicitly downloaded fresh data from the remote with "fetch" or "pull". It's vital to keep this fact in mind when inspecting remote branches and commits!
 
 Let's now look at the fine but important differences between "fetch" and "pull".
 
@@ -155,32 +167,41 @@ Let's now look at the fine but important differences between "fetch" and "pull".
 
 ->  git fetch really only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files. Fetch is great for getting a fresh view on all the things that happened in a remote repository.
 
-->  Due to it's "harmless" nature, you can rest assured: fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
+->  Due to it's "harmless" nature, you can rest assured: 
+fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
 
     Pull
             $ git pull origin master
 
--> git pull, in contrast, is used with a different goal in mind: to update your current HEAD branch with the latest changes from the remote server. This means that pull not only downloads new data; it also directly integrates it into your current working copy files. This has a couple of consequences:
+-> git pull, in contrast, is used with a different goal in mind:
+to update your current HEAD branch with the latest changes from the remote server. This means that pull not only downloads new data; it also directly integrates it into your current working copy files. This has a couple of consequences:
 
--> Since "git pull" tries to merge remote changes with your local ones, a so-called "merge conflict" can occur. Check out our in-depth tutorial on How to deal with merge conflicts for more information.
+-> Since "git pull" tries to merge remote changes with your local ones, a so-called "merge conflict" can occur.
+Check out our in-depth tutorial on How to deal with merge conflicts for more information.
 
--> Like for many other actions, it's highly recommended to start a "git pull" only with a clean working copy. This means that you should not have any uncommitted local changes before you pull. Use Git's Stash feature to save your local changes temporarily.
+-> Like for many other actions, it's highly recommended to start a "git pull" only with a clean working copy.
+This means that you should not have any uncommitted local changes before you pull. Use Git's Stash feature to save your local changes temporarily.
 ```
 10. **what is Docker?**
 ```
 Ans:
-Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code.
+Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. 
+Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. 
+By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code.
     
 ```
 11. **what is Docker image?**
 ```
 Ans:
 
-A Docker image is made up of multiple layers. A user composes each Docker image to include system libraries, tools, and other files and dependencies for the executable code. Image developers can reuse static image layers for different projects. Reuse saves time, because a user does not have to create everything in an image.
+A Docker image is made up of multiple layers. A user composes each Docker image to include system libraries, tools, and other files and dependencies for the executable code. 
+Image developers can reuse static image layers for different projects. Reuse saves time, because a user does not have to create everything in an image.
 
-Most Docker images start with a base image, although a user can build one entirely from scratch, if desired. Each image has one readable/writable top layer over static layers. Layers are added to the base image to tailor the code to run in a container. Each layer of a Docker image is viewable under /var/lib/docker/aufs/diff, or via the Docker history command in the command line interface (CLI). By default, Docker shows all top-layer images, such as the repository, tags and file sizes. Intermediate layers are cached, which makes top layers easier to view. Docker utilizes storage drivers to manage contents of image layers.
+Most Docker images start with a base image, although a user can build one entirely from scratch, if desired. Each image has one readable/writable top layer over static layers. Layers are added to the base image to tailor the code to run in a container. 
+Each layer of a Docker image is viewable under /var/lib/docker/aufs/diff, or via the Docker history command in the command line interface (CLI). By default, Docker shows all top-layer images, such as the repository, tags and file sizes. Intermediate layers are cached, which makes top layers easier to view. Docker utilizes storage drivers to manage contents of image layers.
 
-When a new container is created from an image, a writable layer is also created. This layer is called the container layer, and it hosts all changes made to the running container. This layer can store newly written files, modifications to existing files and newly deleted files. The writable layer allows customization of the container. Changes made to the writable layer are saved on that layer. Multiple containers can share the same underlying base image and have their own data state thanks to the writable layer.
+When a new container is created from an image, a writable layer is also created. This layer is called the container layer, and it hosts all changes made to the running container. This layer can store newly written files, modifications to existing files and newly deleted files. The writable layer allows customization of the container.
+Changes made to the writable layer are saved on that layer. Multiple containers can share the same underlying base image and have their own data state thanks to the writable layer.
     
 ```
 12. **what is Docker Container?**
@@ -188,7 +209,8 @@ When a new container is created from an image, a writable layer is also created.
 Ans:
 
 Package Software into Standardized Units for Development, Shipment and Deployment
-A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
+A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 Container images become containers at runtime and in the case of Docker containers - images become containers when they run on Docker Engine. Available for both Linux and Windows-based applications, containerized software will always run the same, regardless of the infrastructure. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging.
 
@@ -203,7 +225,8 @@ Secure: Applications are safer in containers and Docker provides the strongest d
 ```
 Ans:
 Docker Client
-The Docker client enables users to interact with Docker. The Docker client can reside on the same host as the daemon or connect to a daemon on a remote host. A docker client can communicate with more than one daemon. The Docker client provides a command line interface (CLI) that allows you to issue build, run, and stop application commands to a Docker daemon.
+The Docker client enables users to interact with Docker. The Docker client can reside on the same host as the daemon or connect to a daemon on a remote host. A docker client can communicate with more than one daemon. 
+The Docker client provides a command line interface (CLI) that allows you to issue build, run, and stop application commands to a Docker daemon.
 
 The main purpose of the Docker Client is to provide a means to direct the pull of images from a registry and to have it run on a Docker host. Common commands issued by a client are:
 
@@ -211,14 +234,20 @@ docker build
 docker pull
 docker run
 DockerHost
-The Docker host provides a complete environment to execute and run applications. It comprises of the Docker daemon, Images, Containers, Networks, and Storage. As previously mentioned, the daemon is responsible for all container-related actions and receives commands via the CLI or the REST API. It can also communicate with other daemons to manage its services. The Docker daemon pulls and builds container images as requested by the client. Once it pulls a requested image, it builds a working model for the container by utilizing a set of instructions known as a build file. The build file can also include instructions for the daemon to pre-load other components prior to running the container, or instructions to be sent to the local command line once the container is built.
+The Docker host provides a complete environment to execute and run applications.
+It comprises of the Docker daemon, Images, Containers, Networks, and Storage. As previously mentioned, the daemon is responsible for all container-related actions and receives commands via the CLI or the REST API. 
+It can also communicate with other daemons to manage its services.
+The Docker daemon pulls and builds container images as requested by the client. Once it pulls a requested image, it builds a working model for the container by utilizing a set of instructions known as a build file. The build file can also include instructions for the daemon to pre-load other components prior to running the container, or instructions to be sent to the local command line once the container is built.
 
 Docker Objects
 Various objects are used in the assembling of your application. The main requisite Docker objects are:
 
 
 Images
-Images are a read-only binary template used to build containers. Images also contain metadata that describe the container's capabilities and needs. Images are used to store and ship applications. An image can be used on its own to build a container or customized to add additional elements to extend the current configuration. Container images can be shared across teams within an enterprise using a private container registry, or shared with the world using a public registry like Docker Hub. Images are a core part of the Docker experience as they enable collaboration between developers in a way that was not possible before.
+Images are a read-only binary template used to build containers.
+Images also contain metadata that describe the container's capabilities and needs. Images are used to store and ship applications. 
+An image can be used on its own to build a container or customized to add additional elements to extend the current configuration. Container images can be shared across teams within an enterprise using a private container registry, or shared with the world using a public registry like Docker Hub.
+Images are a core part of the Docker experience as they enable collaboration between developers in a way that was not possible before.
 
 
 Containers
@@ -231,7 +260,8 @@ Docker implements networking in an application-driven manner and provides variou
 The other type of networks is user-defined networks. Administrators can configure multiple user-defined networks. There are three types:
 
 Bridge network: Similar to the default bridge network, a user-defined Bridge network differs in that there is no need for port forwarding for containers within the network to communicate with each other. The other difference is that it has full support for automatic network discovery.
-Overlay network: An Overlay network is used when you need containers on separate hosts to be able to communicate with each other, as in the case of a distributed network. However, a caveat is that swarm mode must be enabled for a cluster of Docker engines, known as a swarm, to be able to join the same group.
+Overlay network: An Overlay network is used when you need containers on separate hosts to be able to communicate with each other, as in the case of a distributed network. However, 
+a caveat is that swarm mode must be enabled for a cluster of Docker engines, known as a swarm, to be able to join the same group.
 Macvlan network: When using Bridge and Overlay networks a bridge resides between the container and the host. A Macvlan network removes this bridge, providing the benefit of exposing container resources to external networks without dealing with port forwarding. This is realized by using MAC addresses instead of IP addresses.
 
 Storage
