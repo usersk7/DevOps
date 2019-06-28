@@ -3,6 +3,8 @@
  	-Docker 
  	-Kubernetese
 	-Jenkins    
+https://www.atlassian.com/git/tutorials/what-is-version-control
+	
 # Git Practice
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
