@@ -442,3 +442,69 @@ Difficult to master
     
 ```
 
+
+**what is Continuous Integration**
+
+'''
+Continuous Integration (CI) is the process of automating the build and testing of code every 
+time a team member commits changes to version control. 
+
+'''
+**What is the difference between Maven, Ant and Jenkins?**
+
+'''
+In short, though Maven and ANT are build tool but main difference is that maven also provides dependency management, 
+standard project layout and project management. On difference between Maven, ANT and Jenkins, 
+later is a continuous integration tool which is much more than build tool. 
+
+'''
+**What is the relation between Hudson and Jenkins?**
+
+'''
+There is no such difference between Jenkins and Hudson. Jenkins is actually the renamed version of Hudson. 
+After disagreements between Oracle and Hudson creators, the latter decided that Hudson was to be forked and become Jenkins CI. 
+
+
+'''
+
+**What are the advantages of Jenkins?**
+
+'''
+1It is open source and it is user-friendly, easy to install and does not require additional installations or components.
+2It is free of cost.
+Easily Configurable. Jenkins can be easily modified and extended. It deploys code instantly, generates test reports. 
+3Jenkins can be configured according to the requirements for continuous integrations and continuous delivery.
+
+'''
+**Which SCM tools does Jenkins supports**
+
+'''
+It supports version control tools, including AccuRev, CVS, Subversion, Git, Mercurial, 
+Perforce, TD/OMS, ClearCase and RTC, and can execute Apache Ant, Apache Maven 
+Platform Independent. Jenkins is available for all platforms and different operating systems, whether OS X, Windows or Linux.
+Jenkins has now got a life of his own and so does Hudson.
+
+'''
+
+**Explain about from Continuous Delivery.**
+
+'''
+Continuous Delivery will explain each and every phase involved in it, such as Build, Test etc
+Continuous delivery is the ability to deliver software that can be deployed at any time through manual releases; 
+this is in contrast to continuous deployment which uses automated deployments. 
+
+Success factor for the Continuous Integration
+1. AUTOMATIC BUILD/DEPLOYMENT SCRIPT
+2. LABELING OF ANY STABLE BUILD
+3. STABILITY CRITERIA
+
+'''
+
+**What is Configuration Management?**
+'''
+Configuration management (CM) is a systems engineering process for establishing and maintaining consistency of a product's
+performance, functional, and physical attributes with its requirements, design, and operational information throughout its life.
+
+'''
+
+
