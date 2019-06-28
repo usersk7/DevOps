@@ -192,6 +192,9 @@ Check out our in-depth tutorial on How to deal with merge conflicts for more inf
 -> Like for many other actions, it's highly recommended to start a "git pull" only with a clean working copy.
 This means that you should not have any uncommitted local changes before you pull. 
 Use Git's Stash feature to save your local changes temporarily.
+
+git pull = git fetch + git merge.
+
 ```
 10. **what is Docker?**
 ```
