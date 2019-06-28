@@ -1,0 +1,212 @@
+
+2.what is the need of devops?
+It is the platform that identifies the relationship between various tools, ideas, and themes of 
+software development and IT operations, using rapid iterations and continuous improvement.
+
+
+2. Mention the key aspects or principle behind DevOps.
+
+The key aspects or principle behind DevOps are,
+
+Infrastructure as code
+Continuous deployment
+Automation
+Monitoring
+Security
+
+
+3. DevOps tools
+Git. Git is one of the most popular DevOps tools, widely used across the software industry. ...
+Jenkins. Jenkins is the go-to DevOps automation tool for many software development teams. ...
+Bamboo. ...
+Docker. ...
+Kubernetes. ...
+
+
+What is meant by version control system?
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
+
+
+Git
+Git is a distributed version-control system for tracking changes in source code during software development. 
+It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. 
+Its goals include speed, data integrity, and support for distributed, non-linear workflows
+
+ Difference between git and svn?
+
+ SVN has one central repository, but GIT has multiple repositories, one central repository but each developer has their own repository.
+The benefits of splitting it up into multiple repositories is that there is no longer one single point of failure. 
+With SVN if the central repository goes down or the code has broken the build then no other developers can commit there code until the repository is fixed.
+ With GIT as each developer has the own repository it doesn't matter if the master repository is broke they can continue to commit code locally,
+ until the master repository is fixed and then they can push their code into the master repository.
+Another benefit of having a local repository is that it is quick, there is no network traffic needed to commit code into source control,
+ developers can work in isolation until ready to push the code to the master repository.
+
+what language is used in Git?
+JavaScript Java Python CSS PHP Ruby C++ C Shell C# Objective-C R VimL Go Perl 
+
+
+What is Docker & Docker Container ?
+What is Docker ? – Docker is a containerization platform that packages your application and all its dependencies together in the form of
+ a docker container to ensure that your application works seamlessly in any environment.
+It is an open source OS-level virtualization software platform primarily designed for Linux and Windows.
+
+What is Container ? – Docker Container is a standardized unit which can be created on the fly to deploy a particular application or environment.
+ It could be an Ubuntu container, CentOs container, etc. to full-fill the requirement from an operating system point of view. Also, it could be an
+ application oriented container like CakePHP container or a Tomcat-Ubuntu container etc.
+
+
+what is Docker image?
+
+A Docker image is a file, comprised of multiple layers, used to execute code in a Docker container. 
+An image is essentially built from the instructions for a complete and executable version of an application, 
+which relies on the host OS kernel. When the Docker user runs an image, 
+it becomes one or multiple instances of that container.
+
+
+
+what are the advantages of using Git?
+One of the biggest advantages of Git is its branching capabilities.
+Unlike centralized version control systems, Git branches are cheap and easy to merge. 
+This facilitates the feature branch workflow popular with many Git users. 
+Feature branches provide an isolated environment for every change to your codebase.
+
+what is kernel? 
+Kernel (operating system) ... The kernel is a computer program that is the core of a computer's operating system, 
+with complete control over everything in the system. On most systems, it is one of the first programs loaded on start-up 
+(after the bootloader).
+
+what is sudo command?
+Sudo (superuser do) is a utility for UNIX- and Linux-based systems that provides an efficient way to 
+give specific users permission to use specific system commands at the root (most powerful) level of the system.
+
+Pipeline
+A Pipeline is a user-defined model of a CD pipeline. A Pipeline’s code defines your entire build process, 
+which typically includes stages for building an application, testing it and then delivering it.
+
+Jenkins Pipeline
+In simple words, Jenkins Pipeline is a combination of plugins that support the integration and 
+implementation of continuous delivery pipelines using Jenkins. 
+
+A continuous delivery (CD) pipeline is an automated expression of your process for getting software from version 
+control right through to your users and customers
+
+What is scrum 
+Its an agile lightweight process for managing  and controlling software and product development and rapidly changing environmemt .
+Its principles and lessons can be applied to all kinds of teamwork. 
+This is one of the reasons Scrum is so popular. Often thought of as an agile project management framework, 
+Scrum describes a set of meetings, tools, and roles that work in concert to help teams structure and manage their work.
+
+git-fetch 
+The fetch command retrieves any commits, references (like tags), branches and files from a remote repository, 
+along with any other corresponding objects
+git-pull
+The git pull command first runs git fetch which downloads content from the specified remote repository. 
+Then a git merge is executed to merge the remote content refs and heads into a new local merge commit.
+easy way to synchronize your local repository 
+
+what is Continuous Integration
+
+Continuous Integration (CI) is the process of automating the build and testing of code every 
+time a team member commits changes to version control. 
+
+What is the difference between Maven, Ant and Jenkins?
+In short, though Maven and ANT are build tool but main difference is that maven also provides dependency management, 
+standard project layout and project management. On difference between Maven, ANT and Jenkins, 
+later is a continuous integration tool which is much more than build tool. 
+
+What is the relation between Hudson and Jenkins?
+There is no such difference between Jenkins and Hudson. Jenkins is actually the renamed version of Hudson. 
+After disagreements between Oracle and Hudson creators, the latter decided that Hudson was to be forked and become Jenkins CI. 
+
+
+
+What are the advantages of Jenkins?
+1It is open source and it is user-friendly, easy to install and does not require additional installations or components.
+2It is free of cost.
+Easily Configurable. Jenkins can be easily modified and extended. It deploys code instantly, generates test reports. 
+3Jenkins can be configured according to the requirements for continuous integrations and continuous delivery.
+
+Which SCM tools does Jenkins supports
+It supports version control tools, including AccuRev, CVS, Subversion, Git, Mercurial, 
+Perforce, TD/OMS, ClearCase and RTC, and can execute Apache Ant, Apache Maven 
+Platform Independent. Jenkins is available for all platforms and different operating systems, whether OS X, Windows or Linux.
+Jenkins has now got a life of his own and so does Hudson.
+
+
+Explain about from Continuous Delivery.
+Continuous Delivery will explain each and every phase involved in it, such as Build, Test etc
+Continuous delivery is the ability to deliver software that can be deployed at any time through manual releases; 
+this is in contrast to continuous deployment which uses automated deployments. 
+
+Success factor for the Continuous Integration
+1. AUTOMATIC BUILD/DEPLOYMENT SCRIPT
+2. LABELING OF ANY STABLE BUILD
+3. STABILITY CRITERIA
+
+
+What is Configuration Management?
+Configuration management (CM) is a systems engineering process for establishing and maintaining consistency of a product's
+performance, functional, and physical attributes with its requirements, design, and operational information throughout its life.
+
+
+Explain a few prerequisites that are useful for DevOps implementation.
+Basic prerequisite for DevOps.
+Basic scripting language like python.
+Good knowledge of Linux.
+Cloud computing.
+Jenkins.
+GitHub.
+Docker.
+Chef.
+Puppet.
+
+
+What are the top 10 devops tools that are used in the industry today?
+The 10 best DevOps tools for 2019
+Gradle. Your DevOps tool stack will need a reliable build tool. ...
+Git. Git is one of the most popular DevOps tools, widely used across the software industry. ...
+Jenkins. Jenkins is the go-to DevOps automation tool for many software development teams. ...
+Bamboo. ...
+Docker. ...
+Kubernetes. ...
+Puppet Enterprise. ...
+Ansible.
+Nagios
+Raygun
+
+
+
+
+
+
+Parameter	Agile	DevOps
+What is it?	
+1.Agile refers to an iterative approach which focuses on collaboration,
+ customer feedback, and small, rapid releases.
+	
+DevOps is considered a practice of bringing development and operations teams together.
+
+2.Purpose	Agile helps to manage complex projects.	
+
+DevOps central concept is to manage end-to-end engineering processes.
+
+3.Task	Agile process focusses on constant changes.
+
+DevOps focuses on constant testing and delivery.
+
+4.Team size	Small Team is at the core of Agile. As smaller is the team, the fewer people on it, the faster they can move.	
+
+Relatively larger team size as it involves all the stack holders.
+
+5.Feedback	Feedback is given by the customer.	
+
+Feedback comes from the internal team.
+
+
+DevOps Engineer Roles and Responsibilities:
+Test, build, design, deployment, and ability to maintain the continuous integration and 
+continuous delivery process using tools like Jenkins, maven Git, etc. ... 
+Ability to automate test and deploy the code and monitor.
+
