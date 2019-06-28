@@ -159,7 +159,8 @@ Ans:
     let's stress their similarities: both are used to download new data from a remote repository.
 
 ->  Downloading data is an essential step in your daily work - because the remote data you are looking at in your local repository is just a "snapshot". 
-It's only as up-to-date as the last time you explicitly downloaded fresh data from the remote with "fetch" or "pull". It's vital to keep this fact in mind when inspecting remote branches and commits!
+It's only as up-to-date as the last time you explicitly downloaded fresh data from the remote with "fetch" or "pull".
+It's vital to keep this fact in mind when inspecting remote branches and commits!
 
 Let's now look at the fine but important differences between "fetch" and "pull".
 
@@ -168,7 +169,9 @@ Let's now look at the fine but important differences between "fetch" and "pull".
                 $ git fetch origin
 
 
-->  git fetch really only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files. Fetch is great for getting a fresh view on all the things that happened in a remote repository.
+->  git fetch really only downloads new data from a remote repository - 
+but it doesn't integrate any of this new data into your working files. 
+Fetch is great for getting a fresh view on all the things that happened in a remote repository.
 
 ->  Due to it's "harmless" nature, you can rest assured: 
 fetch will never manipulate, destroy, or screw up anything. This means you can never fetch often enough.
@@ -177,20 +180,26 @@ fetch will never manipulate, destroy, or screw up anything. This means you can n
             $ git pull origin master
 
 -> git pull, in contrast, is used with a different goal in mind:
-to update your current HEAD branch with the latest changes from the remote server. This means that pull not only downloads new data; it also directly integrates it into your current working copy files. This has a couple of consequences:
+to update your current HEAD branch with the latest changes from the remote server.
+This means that pull not only downloads new data;
+it also directly integrates it into your current working copy files. 
+This has a couple of consequences:
 
 -> Since "git pull" tries to merge remote changes with your local ones, a so-called "merge conflict" can occur.
 Check out our in-depth tutorial on How to deal with merge conflicts for more information.
 
 -> Like for many other actions, it's highly recommended to start a "git pull" only with a clean working copy.
-This means that you should not have any uncommitted local changes before you pull. Use Git's Stash feature to save your local changes temporarily.
+This means that you should not have any uncommitted local changes before you pull. 
+Use Git's Stash feature to save your local changes temporarily.
 ```
 10. **what is Docker?**
 ```
 Ans:
 Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. 
-Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. 
-By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code.
+Containers allow a developer to package up an application with all of the parts it needs,
+such as libraries and other dependencies, and ship it all out as one package. 
+By doing so, thanks to the container, the developer can rest assured that the application will run on any 
+other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code.
     
 ```
 11. **what is Docker image?**
@@ -200,11 +209,19 @@ Ans:
 A Docker image is made up of multiple layers. A user composes each Docker image to include system libraries, tools, and other files and dependencies for the executable code. 
 Image developers can reuse static image layers for different projects. Reuse saves time, because a user does not have to create everything in an image.
 
-Most Docker images start with a base image, although a user can build one entirely from scratch, if desired. Each image has one readable/writable top layer over static layers. Layers are added to the base image to tailor the code to run in a container. 
-Each layer of a Docker image is viewable under /var/lib/docker/aufs/diff, or via the Docker history command in the command line interface (CLI). By default, Docker shows all top-layer images, such as the repository, tags and file sizes. Intermediate layers are cached, which makes top layers easier to view. Docker utilizes storage drivers to manage contents of image layers.
+Most Docker images start with a base image, although a user can build one entirely from scratch, if desired.
+Each image has one readable/writable top layer over static layers.
+Layers are added to the base image to tailor the code to run in a container. 
+Each layer of a Docker image is viewable under /var/lib/docker/aufs/diff, or via the Docker history command in the command line interface (CLI). By default, Docker shows all top-layer images, such as the repository, tags and file sizes. 
+Intermediate layers are cached, which makes top layers easier to view. 
+Docker utilizes storage drivers to manage contents of image layers.
 
-When a new container is created from an image, a writable layer is also created. This layer is called the container layer, and it hosts all changes made to the running container. This layer can store newly written files, modifications to existing files and newly deleted files. The writable layer allows customization of the container.
-Changes made to the writable layer are saved on that layer. Multiple containers can share the same underlying base image and have their own data state thanks to the writable layer.
+When a new container is created from an image, a writable layer is also created. 
+This layer is called the container layer, and it hosts all changes made to the running container.
+This layer can store newly written files, modifications to existing files and newly deleted files.
+The writable layer allows customization of the container.
+Changes made to the writable layer are saved on that layer. 
+Multiple containers can share the same underlying base image and have their own data state thanks to the writable layer.
     
 ```
 12. **what is Docker Container?**
