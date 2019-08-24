@@ -65,4 +65,6 @@ Download the Virtual Machine from URL https://bitnami.com/redirect/to/587138/bit
         ```
 13. Click SAVE button.
 
-## [lab] (https://github.com/usersk7/DevOps/blob/master/Jenkins_Maven)
+***
+
+https://github.com/usersk7/DevOps/blob/master/Jenkins_Maven
