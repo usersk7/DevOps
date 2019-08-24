@@ -1,10 +1,10 @@
-#Lab 1 : Setting up Jenkins Environment
---
+# Lab 1 : Setting up Jenkins Environment
+```
 Download from FTP : bitnami-jenkins
 OR
 Download the Virtual Machine from URL https://bitnami.com/redirect/to/587138/bitnami-jenkins-2.176.1-0-r56-linux-debian-9-x86_64.ova 
---
-#Stpes :
+```
+# Stpes :
 
 1. Import the OVA file into Virtual Box (10 Minutes)
 
