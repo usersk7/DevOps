@@ -1,9 +1,13 @@
 # DevOps
-  	-Git Practice
- 	-Docker 
- Kubernetese  [Click_here](https://github.com/usersk7/Kubernetes "Kubernetese")
-	-Jenkins    
-https://www.atlassian.com/git/tutorials/what-is-version-control
+
+[Git Practice](https://www.atlassian.com/git/tutorials/what-is-version-control "Git")
+ 
+
+  [Docker](https://github.com/usersk7/Docker "Docker")
+  
+  [Kubernetese](https://github.com/usersk7/Kubernetes "Kubernetese")
+Jenkins    
+
 	
 # Git Practice
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
