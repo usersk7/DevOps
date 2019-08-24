@@ -1,7 +1,7 @@
 # DevOps
   	-Git Practice
  	-Docker 
- 	-Kubernetese
+ 	-Kubernetese (https://github.com/usersk7/Kubernetes)
 	-Jenkins    
 https://www.atlassian.com/git/tutorials/what-is-version-control
 	
