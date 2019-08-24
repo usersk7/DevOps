@@ -1,12 +1,10 @@
 # DevOps
 
 [Git Practice](https://www.atlassian.com/git/tutorials/what-is-version-control "Git")
- 
-
-  [Docker](https://github.com/usersk7/Docker "Docker")
+ [Docker](https://github.com/usersk7/Docker "Docker")
   
   [Kubernetese](https://github.com/usersk7/Kubernetes "Kubernetese")
-Jenkins    
+[Jenkins](https://github.com/usersk7/DevOps/blob/master/Jenkins_Setup.md)    
 
 	
 # Git Practice
@@ -15,7 +13,7 @@ usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
            <command> [<args>]
-
+```
 These are common Git commands used in various situations:
 
 start a working area (see also: git help tutorial)
@@ -48,6 +46,7 @@ collaborate (see also: git help workflows)
    fetch      Download objects and refs from another repository
    pull       Fetch from and integrate with another repository or a local branch
    push       Update remote refs along with associated objects
+ ```
 
 'git help -a' and 'git help -g' list available subcommands and some
 concept guides. See 'git help <command>' or 'git help <concept>'
