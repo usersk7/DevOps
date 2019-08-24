@@ -1,9 +1,11 @@
 # DevOps
 
 [Git Practice](https://www.atlassian.com/git/tutorials/what-is-version-control "Git")
- [Docker](https://github.com/usersk7/Docker "Docker")
+
+[Docker](https://github.com/usersk7/Docker "Docker")
   
-  [Kubernetese](https://github.com/usersk7/Kubernetes "Kubernetese")
+[Kubernetese](https://github.com/usersk7/Kubernetes "Kubernetese")
+  
 [Jenkins](https://github.com/usersk7/DevOps/blob/master/Jenkins_Setup.md)    
 
 	
