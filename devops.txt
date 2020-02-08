@@ -1,5 +1,5 @@
-
-2.what is the need of devops?
+[ SHUBHAM KUMBHAR ]
+1.what is the need of devops?
 It is the platform that identifies the relationship between various tools, ideas, and themes of 
 software development and IT operations, using rapid iterations and continuous improvement.
 
@@ -48,11 +48,11 @@ JavaScript Java Python CSS PHP Ruby C++ C Shell C# Objective-C R VimL Go Perl
 
 
 What is Docker & Docker Container ?
-What is Docker ? – Docker is a containerization platform that packages your application and all its dependencies together in the form of
+What is Docker ? â€“ Docker is a containerization platform that packages your application and all its dependencies together in the form of
  a docker container to ensure that your application works seamlessly in any environment.
 It is an open source OS-level virtualization software platform primarily designed for Linux and Windows.
 
-What is Container ? – Docker Container is a standardized unit which can be created on the fly to deploy a particular application or environment.
+What is Container ? â€“ Docker Container is a standardized unit which can be created on the fly to deploy a particular application or environment.
  It could be an Ubuntu container, CentOs container, etc. to full-fill the requirement from an operating system point of view. Also, it could be an
  application oriented container like CakePHP container or a Tomcat-Ubuntu container etc.
 
@@ -82,7 +82,7 @@ Sudo (superuser do) is a utility for UNIX- and Linux-based systems that provides
 give specific users permission to use specific system commands at the root (most powerful) level of the system.
 
 Pipeline
-A Pipeline is a user-defined model of a CD pipeline. A Pipeline’s code defines your entire build process, 
+A Pipeline is a user-defined model of a CD pipeline. A Pipelineâ€™s code defines your entire build process, 
 which typically includes stages for building an application, testing it and then delivering it.
 
 Jenkins Pipeline
